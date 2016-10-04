@@ -1,0 +1,38 @@
+{
+  "name": "shallow-element-equals",
+  "version": "1.0.0",
+  "description": "Efficient shallow equality algorithm that also allows checks for react element equality of children props",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lelandrichardson/shallow-element-equals.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "shouldComponentUpdate",
+    "shallowCompare",
+    "react-addons",
+    "performance",
+    "shallow-equal"
+  ],
+  "author": "Leland Richardson <leland.m.richardson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lelandrichardson/shallow-element-equals/issues"
+  },
+  "homepage": "https://github.com/lelandrichardson/shallow-element-equals#readme",
+  "dependencies": {
+    "style-equal": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-preset-airbnb": "^2.1.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0",
+    "react": "^15.3.2"
+  }
+}
