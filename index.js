@@ -19,6 +19,7 @@ function elementEquals(a, b) {
       }
       return true;
     case 'object':
+      if (!a || !b) return a === b;
       if (a.type !== b.type) return false;
       if (a.key !== b.key) return false;
       if (a.ref !== b.ref) return false;
